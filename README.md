@@ -23,7 +23,8 @@ This repository holds the licence and the Windows releases.
 - **AI assistant.** Ask about a connected device in plain language. It runs read-only
   commands (`show`, `ping`, `traceroute`, `dir`), each one shown to you, and asks before it runs
   them unless you say otherwise. It cannot send configuration: when a change is the answer, it
-  writes the config out for you to review and paste yourself.
+  writes the config out for you to review and paste yourself. The full list of what it may run
+  is at [alabai.app/assistant](https://alabai.app/assistant).
 
 ## Privacy
 
@@ -41,20 +42,23 @@ This repository holds the licence and the Windows releases.
 
 ## Install
 
-Alabai 1.0 is for 64-bit Windows 10 and 11. Download `alabai-<version>-setup.exe` from the
+Alabai 1.0 is for 64-bit Windows 10 and 11. Download `alabai-setup.exe` from
+[alabai.app](https://alabai.app) or the
 [releases page](https://github.com/timurkz/alabai/releases/latest) and run it. It installs for
 your user account and needs no administrator rights.
 
 Because Alabai is new, Windows SmartScreen may show a warning. Choose **More info**, check that
 the publisher is Timur Rakhimzhanov, then choose **Run anyway**.
 
-When a new version is out, **Update** appears in the status bar. Alabai installs it only if
+When a new version is out, **Update** appears at the right of the status bar, at the bottom of
+the window. Alabai installs it only if
 Windows confirms it is signed by the same publisher. Settings and devices are kept across
 updates.
 
 ## Feedback
 
-**Feedback** in the status bar opens a draft in your email app. Or write to
+**Feedback** in the status bar opens a short form at
+[alabai.app/feedback](https://alabai.app/feedback) in your browser. Or write to
 [feedback@alabai.app](mailto:feedback@alabai.app).
 
 To report a vulnerability, write to [security@alabai.app](mailto:security@alabai.app). Please
